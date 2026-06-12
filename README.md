@@ -20,7 +20,6 @@ Folder: `dna-sequence-matching`
 
 Files:
 - DNASequenceMatching.java
-- README.md
 
 ---
 
@@ -34,7 +33,7 @@ Folder: `floyd-warshall`
 
 Files:
 - FloydWarshall.java
-- README.md
+
 
 ---
 
@@ -45,10 +44,9 @@ Files:
 ├── README.md
 ├── dna-sequence-matching
 │   ├── DNASequenceMatching.java
-│   └── README.md
+│  
 └── floyd-warshall
     ├── FloydWarshall.java
-    └── README.md
 ```
 
 
