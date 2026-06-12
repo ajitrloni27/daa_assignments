@@ -4,7 +4,22 @@ This repository contains Java implementations of Design and Analysis of Algorith
 
 ---
 
-## Assignment 3 - DNA Sequence Matching
+
+
+## Assignment 1 - Floyd-Warshall – Airline Fare Distance Mapping
+
+### Problem Statement
+
+An airline company wants to compute minimum travel costs between all cities in its network. Implement Floyd-Warshall Algorithm for the given city graph. Give an explanation for the time complexity as well.
+
+Folder: `floyd-warshall`
+
+Files:
+- FloydWarshall.java
+
+
+---
+## Assignment 2 - DNA Sequence Matching
 
 ### Problem Statement
 
@@ -20,20 +35,6 @@ Folder: `dna-sequence-matching`
 
 Files:
 - DNASequenceMatching.java
-
----
-
-## Assignment 4 - Floyd-Warshall – Airline Fare Distance Mapping
-
-### Problem Statement
-
-An airline company wants to compute minimum travel costs between all cities in its network. Implement Floyd-Warshall Algorithm for the given city graph. Give an explanation for the time complexity as well.
-
-Folder: `floyd-warshall`
-
-Files:
-- FloydWarshall.java
-
 
 ---
 
