@@ -4,136 +4,52 @@ This repository contains Java implementations of Design and Analysis of Algorith
 
 ---
 
-## Assignment 3: Naive String Matching Algorithm
-
-### Problem Statement
-In bioinformatics, researchers search for a specific gene sequence (pattern) within a longer DNA strand (text). This program uses the Naive String Matching Algorithm to find all occurrences of a pattern in a given text.
-
-### Algorithm
-The Naive String Matching algorithm compares the pattern with the text one position at a time and checks for a match.
-
-### Input
-DNA Text: ATGCGATACGTAGCTAGCTAA
-
-Pattern: GCTA
-
-### Time Complexity
-
-| Case | Complexity |
-|--------|----------|
-| Best Case | O(n) |
-| Worst Case | O(n × m) |
-
-Where:
-- n = length of text
-- m = length of pattern
-
-### How to Run
-
-```bash
-javac DNASequenceMatching.java
-java DNASequenceMatching
-```
-
-### Sample Output
-
-```text
-DNA Text    : ATGCGATACGTAGCTAGCTAA
-Pattern     : GCTA
-
-Pattern found at position 9
-Pattern found at position 14
-
-Time Complexity = O(n * m)
-```
-
----
-
-## Assignment 4: Floyd-Warshall Algorithm
+## Assignment 3 - DNA Sequence Matching
 
 ### Problem Statement
 
-The Floyd-Warshall Algorithm is used to find the shortest path between every pair of vertices in a weighted graph.
+In bioinformatics, researchers look for a specific gene sequence (pattern) within a longer DNA strand (text). Apply the Naive String Matching Algorithm to find all positions where a short DNA pattern appears.
 
-### Algorithm
+Input example:
 
-- Uses Dynamic Programming.
-- Finds shortest paths between all pairs of vertices.
-- Works with positive and negative edge weights (without negative cycles).
-- Uses a cost matrix as input.
+DNA = "ATGCGATACGTTAGCTAGCTAA"
 
-### Time Complexity
+Pattern = "GCTA"
 
-| Case | Complexity |
-|--------|----------|
-| Best Case | O(n³) |
-| Average Case | O(n³) |
-| Worst Case | O(n³) |
+Folder: `dna-sequence-matching`
 
-Where:
-- n = number of vertices
-
-### How to Run
-
-```bash
-javac FloydWarshall.java
-java FloydWarshall
-```
-
-### Sample Input
-
-```text
-Enter number of vertices: 4
-
-Enter cost matrix:
-0 3 9999 7
-8 0 2 9999
-5 9999 0 1
-2 9999 9999 0
-```
-
-### Sample Output
-
-```text
-Shortest Distance Matrix:
-
-0 3 5 6
-5 0 2 3
-3 6 0 1
-2 5 7 0
-
-Time Complexity = O(n³)
-```
+Files:
+- DNASequenceMatching.java
+- README.md
 
 ---
 
-## Repository Structure
+## Assignment 4 - Floyd-Warshall – Airline Fare Distance Mapping
+
+### Problem Statement
+
+An airline company wants to compute minimum travel costs between all cities in its network. Implement Floyd-Warshall Algorithm for the given city graph. Give an explanation for the time complexity as well.
+
+Folder: `floyd-warshall`
+
+Files:
+- FloydWarshall.java
+- README.md
+
+---
+
+## Folder Structure
 
 ```text
-daa_assignments/
-│
+.
 ├── README.md
-│
-├── dna-sequence-matching/
+├── dna-sequence-matching
 │   ├── DNASequenceMatching.java
-│
-└── floyd-warshall/
+│   └── README.md
+└── floyd-warshall
     ├── FloydWarshall.java
+    └── README.md
 ```
 
----
 
-## Technologies Used
 
-- Java
-- String Matching Algorithms
-- Dynamic Programming
-- Graph Algorithms
-
----
-
-## Author
-
-Ajit R L
-Information Science and Engineering
-Mangalore Institute of Technology and Engineering
